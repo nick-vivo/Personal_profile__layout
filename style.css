@@ -1,0 +1,560 @@
+.font-color-white
+{
+    color: white;
+}
+
+/* .footer-topic
+{
+    height: 5vh;
+    background-color: black;
+} */
+
+.font-color-orange
+{
+    color: rgb(250,153,58);
+    text-decoration: none; 
+}
+
+.font-color-yellow
+{
+    color: rgb(224,168,13);
+    text-decoration: none;
+}
+
+.font-color-blue
+{
+    text-decoration: none;
+    color:rgb(104,138,152);
+}
+
+button
+{
+    background: none;
+    border: none;
+}
+
+.about-main-theme
+{
+    background-color: rgb(43,44,44);
+    margin:0;
+    height: 130vh;
+    font-family: monospace;
+}
+
+.about-header
+{
+    display: flex;
+    background-color: rgb(38,38,38);
+    align-items: center;
+    height: 5vh;
+}
+
+
+.about-header-name
+{   
+    flex: 1;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.about-nav-flex
+{
+    flex: 1;
+}
+
+.about-header-check-theme
+{
+    flex: 0.05;
+}
+
+.icon 
+{
+    width: 2vh;
+    height: 2vh;
+}
+
+.about-nav-ul-flex
+{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+    list-style-type: none;
+}
+
+.about-nav-ul-flex > li
+{
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+}
+
+.about-nav-ul-flex li a 
+{
+    text-decoration: none;
+    color: rgb(164,165,166);
+}
+
+.about-nav-ul-flex li a:hover
+{
+    color: rgb(224,168,13);
+}
+
+
+.avatarka
+{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 75%;
+}
+
+
+.about-page-grid-container
+{
+    display: grid;
+    background-color: #2b2c2c;
+    grid-template-columns: 37% 63%;
+
+    height: 125vh;
+    grid-template-rows: 100vh 25vh;
+}
+
+.about-grid-item-avatar
+{
+    background-color: #2b2c2c;
+    padding-top: 55%;
+    text-align: right;
+    padding-right: 15%;
+}
+
+.about-grid-item-name
+{
+    display: grid;
+    background-color: #2d2e2e;
+    grid-template-rows: 5vh 7vh 3vh 5vh 12vh;
+
+    padding-top: 35%;
+    padding-left: 5%;
+
+}
+
+.about-grid-item-name-span
+{
+    font-size: 5vh;
+
+    font-weight: 0;
+    color: rgb(164,165,166)
+}
+
+.about-grid-item-second-name-span
+{
+    font-size: 7vh;
+    font-weight: bold;
+
+    color: rgb(224,168,13);
+}
+
+.about-grid-item-info-span
+{
+    padding-top: 3vh;
+    font-size: 2vh;
+    color: rgb(104,138,152);
+}
+
+.about-grid-item-contact
+{
+    display: flex;
+    column-gap: 1%;
+    margin-left: 50%;
+    margin-top: -0.5%;
+    list-style-type: none;
+}
+
+.icon-2
+{
+    width: 3vh;
+    height: 3vh;
+}
+
+.horizontal-line 
+{
+    margin-top: 20vh;
+    width: 68%; /* Задайте ширину линии, например, 100% */
+    height: 2%; /* Задайте желаемую высоту линии */
+    background-color: rgb(64,66,66); /* Задайте желаемый цвет линии */
+}
+
+.about-flex-item-info
+{
+    margin-top: 10vh;
+    
+    padding: 0;
+    display: flex;
+
+    flex-direction: row;
+
+
+    color: rgb(164,165,166);
+    column-gap: 7%;
+    font-size: 1.5vh;
+}
+
+.about-grid-item-about
+{   
+    display: grid;
+    grid-template-rows: 2vh 1vh;
+    background-color: #292a2a;
+    text-align: end;
+    padding-right: 10%;
+    padding-top: 3.5vh;
+}
+
+.about-grid-item-about-span
+{
+    font-weight: bold;
+    font-size: 2vh;
+    color: rgb(164,165,166);
+}
+
+.about-grid-item-aboutplus-span
+{
+    font-size: 1.5vh;
+    padding-top: 1vh;
+    color: rgb(164,165,166);
+}
+
+.about-grid-item-text
+{
+    background-color: #2b2c2c;
+    padding-top: 2.5vh;
+    padding-left: 5%;
+    font-size: 2vh;
+    color: rgb(164,165,166);
+}
+
+
+.about-grid-item-text p
+{
+    width: 68%;
+    padding: 1vh;
+    margin: 0;
+}
+
+.about-small-flex-rows
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    align-items: center;
+
+}
+
+.about-small-flex-rows a
+{
+    text-decoration: none;
+    color: rgb(164,165,166);
+}
+
+
+.resume-grid-container
+{
+    display: grid;
+    background-color: #2b2c2c;
+    
+    grid-template-columns: 37% 63%;
+    grid-template-rows: 70vh 55vh;
+    
+    grid-template-areas: 
+    "main text"
+    "main2 text2";
+
+    height: 125vh;
+}
+
+.resume-grid-item-expert
+{
+    display: grid;
+    background-color: rgb(43, 44, 44);
+    grid-template-rows: 2vh 1vh;
+    text-align: end;
+    padding-right: 10%;
+    padding-top: 3.5vh;
+}
+
+.resume-grid-item-expert-data
+{
+    background-color: rgb(45,46,46);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-top: 3.5vh;
+    
+    column-gap: 2vh;
+
+    padding-left: 10%;
+
+}
+
+.resume-grid-item-expert
+{
+    display: grid;
+    background-color: rgb(43, 44, 44);
+    grid-template-rows: 2vh 1vh;
+    text-align: end;
+    padding-right: 10%;
+    padding-top: 3.5vh;
+}
+
+.resume-grid-item-expert-data
+{
+    background-color: rgb(45,46,46);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-top: 3.5vh;
+    
+    column-gap: 2vh;
+
+    padding-left: 10%;
+}
+
+.grid-item-1
+{
+    grid-area: main;
+}
+
+.grid-item-2
+{
+    grid-area: text;
+}
+
+.grid-item-3
+{
+    grid-area: main2;
+}
+
+.grid-item-4
+{
+    grid-area: text2;
+}
+
+.resume-grid-item-expert-object
+{
+    display: grid;
+    grid-template-rows: 2vh 1vh;
+    row-gap: 2vh;
+    text-align: left;
+    padding-right: 10%;
+}
+
+
+.resume-grid-item-expert-data-bars
+{
+    display: grid;
+    grid-template-columns: 2vh 100%  ;
+    row-gap: 2vh;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.background-skills
+{
+    background-color: rgb(41,42,42)
+}
+
+.background-bars
+{
+    background-color: rgb(43,44,44);
+}
+/* 
+.resume-grid-item-expert-data-barsik
+{
+    display: grid;
+    grid-template-rows: auto auto;
+
+    grid-template-rows: auto auto;
+    padding-top: 3.5vh;
+    
+    column-gap: 2vh;
+
+    padding-left: 10%;
+} */
+
+
+
+
+
+
+
+
+.progress-bar 
+{
+    width: 100%;
+    height: 0.5vh;
+    background-color: gray;
+}
+
+.progress100
+{
+    width: 100%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress95
+{
+    width: 95%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress85
+{
+    width: 85%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+
+.progress90
+{
+    width: 90%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+
+.progress50
+{
+    width: 50%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress35
+{
+    width: 35%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress70
+{
+    width: 70%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress25
+{
+    width: 25%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.progress80
+{
+    width: 80%;
+    height: 0.5vh;
+    background-color: rgb(224,168,13);
+}
+
+.footer-grid-item-contact
+{
+    display: flex;
+    column-gap: 3vh;
+    padding-right: 5vh;
+    padding-top: 0.5vh;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+}
+
+footer
+{
+    height: 6vh;
+    background-color: rgb(38,38,38);
+}
+
+.icon-3
+{
+    width: 4vh;
+    height: 4vh;
+}
+
+
+.grid-container
+{
+    display: grid;
+    background-color: #2b2c2c;
+    grid-template-columns: 37% 63%;
+
+    /* height: 300vh; */
+
+}
+
+.first
+{
+    background-color: rgb(43,44,44);   
+}
+
+.second
+{
+    background-color: rgb(45,46,46);   
+}
+
+.third
+{
+    background-color: rgb(41,42,42)
+}
+
+
+.four
+{
+    background-color: rgb(41,42,42)
+}
+
+.word
+{
+    color: rgb(224,168,13);
+}
+
+.cite
+{
+    color: rgb(104,138,152);
+}
+
+.topic-text
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2vh;
+    color: rgb(164,165,166);
+}
+
+.topic-text > p
+{
+    padding-top: 3.5vh;
+    text-indent: 5%;
+    margin: 0;
+}
+
+.long-dash::before {
+    text-indent: 0;
+    content: "\2014 ";
+}
+
+
+.scroll-trigger {
+    height: 300px; /* Высота блока, который инициирует появление текста */
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.hidden-text {
+    opacity: 0; /* Начнем с текста, который не виден */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s;
+}
